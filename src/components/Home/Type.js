@@ -7,7 +7,8 @@ function Type() {
       options={{
         strings: [
           "Web Developer",
-          "Devops In Cloud Computing",
+          "Cloud Computing",
+          "Devops on Aws",
           "Network Administrator",
         ],
         autoStart: true,

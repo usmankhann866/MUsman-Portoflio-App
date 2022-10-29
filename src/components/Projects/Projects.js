@@ -2,11 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import Iot from "../../Assets/IOT_Project.png";
 import faceReg from "../../Assets/Projects/face4.jfif";
 import htmlCode from "../../Assets/Projects/imageTohtml.jpg";
-import suicide from "../../Assets/Projects/suicide.png";
 import restaurant from "../../Assets/Projects/Resturant.png";
 
 function Projects() {
@@ -61,7 +59,7 @@ function Projects() {
 
           <Col md={5} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={Iot}
               isBlog={false}
               title="AIR QUALITY MONITORING USING AZURE IOT"
               description="Good quality of air is required to maintain good health conditions among the living environment. With an increasing air pollution, we developed an Advanced Air Quality Monitoring System using azure devices(Iot hub|Azure Stream Analytics|blob storage|power bi) and Raspberry Pi simulator. The system perform monitoring the air quality by considering parameters like temperature and humidity. Proposed system has Raspberry pi Simulator for connecting with IOT platform to pass the information regarding the pollutants (temperature and hunmidty)."
