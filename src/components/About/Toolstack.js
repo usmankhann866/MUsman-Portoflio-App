@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {AiFillGithub} from "react-icons/ai";
+import {FaFigma} from "react-icons/fa";
 import {
   SiVisualstudiocode,
   SiPowerbi,
@@ -18,6 +19,10 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiPowerbi />
         <h4>Power bi</h4>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaFigma />
+        <h4>Figma</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <AiFillGithub />

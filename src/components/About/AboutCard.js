@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Mohammad Usman </span>
             from <span className="purple"> Peshawar, Pakistan.</span>
-            <br />I am a frontend website developer from last two and half years and Cloud Devops Engineer.
+            <br />I am a frontend website developer and Cloud Administrator.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -27,10 +27,10 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          {/* <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Mohammad Usman</footer>
+          <footer className="blockquote-footer">Mohammad Usman</footer> */}
         </blockquote>
       </Card.Body>
     </Card>

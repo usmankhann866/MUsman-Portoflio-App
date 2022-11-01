@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { AiFillHtml5 } from "react-icons/ai";
-import {FaAws} from "react-icons/fa";
+import {FaAws, FaFigma} from "react-icons/fa";
 // import {TbNetwork} from "react-icons/bi";
 
 import {
@@ -11,7 +11,7 @@ import {
   DiReact,
   DiJqueryLogo,
   DiMysql,
-  DiPython,
+  // DiPython,
   DiGit
 } from "react-icons/di";
 import {
@@ -63,10 +63,6 @@ function Techstack() {
         <h4>Aws</h4>
       </Col>
     
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-        <h4>Python</h4>
-      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
         <h4>Git</h4>
